@@ -1,5 +1,5 @@
 ### Dehazing_Using_GAN
-This repository contains Dehazing vision pipeline for IROS paper "[Vision-Based Autonomous Navigation for Unmanned Surface Vessel in Extreme Marine Conditions]([https://arxiv.org/pdf/2308.04283.pdf](https://ieeexplore.ieee.org/abstract/document/10341867))" 
+This repository contains Dehazing vision pipeline for IROS paper "[Vision-Based Autonomous Navigation for Unmanned Surface Vessel in Extreme Marine Conditions](https://ieeexplore.ieee.org/abstract/document/10341867))" 
 
 Below are video results showcasing the effectiveness of our Dehazing vision pipeline. In these examples, the target vessel is not easily detected when using the direct image from the onboard camera. However, after passing the image through our GAN model for dehazing, the visibility is significantly improved. The enhanced images are then processed by the YOLO model, leading to successful detection.
 
